@@ -1,0 +1,40 @@
+
+RutgersLiri: My 20th tweet, yay!!!! (Tweeted on: Sun Sep 24 16:27:18 +0000 2017)
+RutgersLiri: Rutgers Coding Bootcamp #theliriproject (Tweeted on: Sun Sep 24 16:25:34 +0000 2017)
+RutgersLiri: Pretty, pretty excited for the Curb Your Enthusiasm Premiere 📺 (Tweeted on: Sun Sep 24 16:22:47 +0000 2017)
+RutgersLiri: I love 🛋️ (Tweeted on: Sun Sep 24 16:21:11 +0000 2017)
+RutgersLiri: 🍟🍟🍟🍟🍟 (Tweeted on: Sun Sep 24 16:20:22 +0000 2017)
+RutgersLiri: NodeJS is sweet 🤓 (Tweeted on: Sun Sep 24 16:19:49 +0000 2017)
+RutgersLiri: 60 days until Thanksgiving 🍗🌽🍽️ #yesssss (Tweeted on: Sun Sep 24 16:18:17 +0000 2017)
+RutgersLiri: 92 days until Christmas 😱 (Tweeted on: Sun Sep 24 16:17:29 +0000 2017)
+RutgersLiri: 🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕 (Tweeted on: Sun Sep 24 16:16:04 +0000 2017)
+RutgersLiri: What's your favorite emoji? (Tweeted on: Sun Sep 24 16:15:06 +0000 2017)
+RutgersLiri: 🕶️ (Tweeted on: Sun Sep 24 16:14:35 +0000 2017)
+RutgersLiri: This is the Rutgers Liri Project. (Tweeted on: Sun Sep 24 16:13:05 +0000 2017)
+RutgersLiri: What would Liri do? (Tweeted on: Sun Sep 24 16:10:53 +0000 2017)
+RutgersLiri: I wish I was at the beach today and not doing homework (Tweeted on: Sun Sep 24 15:49:42 +0000 2017)
+RutgersLiri: My favorite movie is Trainwreck (Tweeted on: Sun Sep 24 15:49:23 +0000 2017)
+RutgersLiri: My favorite comedian is Louis CK (Tweeted on: Sun Sep 24 15:49:03 +0000 2017)
+RutgersLiri: I wish I could go on vacation (Tweeted on: Sun Sep 24 15:41:00 +0000 2017)
+RutgersLiri: I love pizza (Tweeted on: Sun Sep 24 15:40:41 +0000 2017)
+RutgersLiri: What's up Liri?!?! (Tweeted on: Sun Sep 24 15:31:57 +0000 2017)
+RutgersLiri: Liri is awesome (Tweeted on: Sun Sep 24 15:11:24 +0000 2017)
+
+Artist: "Adele"
+Song name: "Hello"
+Preview the song: "https://open.spotify.com/album/1Eo1pg2D4beFgf3HFTJTMc"
+Album: "Hello"
+
+Movie Title: The Founder
+Year Released: 2016
+IMDB Rating: 7.2/10
+Rotten Tomatoes: 84%
+Country Produced: USA
+Language: English
+Plot: The story of Ray Kroc, a salesman who turned two brothers' innovative fast food eatery, McDonald's, into the biggest restaurant business in the world with a combination of ambition, persistence and ruthlessness.
+Cast: Michael Keaton, Nick Offerman, John Carroll Lynch, Linda Cardellini
+
+Artist: "Backstreet Boys"
+Song name: "I Want It That Way"
+Preview the song: "https://open.spotify.com/album/1NslKOZobWxINFaFkLol3r"
+Album: "The Hits--Chapter One"

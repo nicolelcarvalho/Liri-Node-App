@@ -54,23 +54,18 @@ function getTweets() {
 	  if ( (!error) && (command === "my-tweets") ) {
 	  	for (var i = 0; i < tweets.length; i++) {
 	  		console.log(tweets[i].user.screen_name + ": " + tweets[i].text + " (Tweeted on: " + tweets[i].created_at + ")");
-	  	}
-	  }
 
-	  fs.appendFile("log.txt", (tweets[i].user.screen_name + ": " + tweets[i].text + " (Tweeted on: " + tweets[i].created_at + ")"), function(err) {
+			  // Append the content to the "log.txt file"
+			  fs.appendFile("log.txt", (tweets[i].user.screen_name + ": " + tweets[i].text + " (Tweeted on: " + tweets[i].created_at + ")" + "\n"), function(err) {
 
-	  	if(err) {
-	  		console.log(err);
-	  	}
-
-	  	else {
-	  		console.log("Content Added to the log.txt file!");
-	  	}
-	  }
-
-	});
-
-}
+				  	if(err) {
+				  		console.log(err);
+				  	}
+		  	}); // End .appendFile
+	  	} // End for loop
+		} // End if statement
+	}); // End request
+} // End getTweets function
  
 
 // Create a function to store spotifying a specified song
@@ -90,22 +85,34 @@ function runSpotify(song) {
 	 }
 
 
-	S.search({ type: 'track', query: spotifySong }, function(err, data) {
+	S.search({ type: 'track', query: spotifySong, limit: 1}, function(err, data) {
+
+		// console.log(JSON.stringify(data.tracks.items, null, 2));
 
 		var artistName = JSON.stringify(data.tracks.items[0].album.artists[0].name);
+		var songName = JSON.stringify(data.tracks.items[0].name);
 		var previewLink = JSON.stringify(data.tracks.items[0].album.external_urls.spotify);
+		// var previewLink = JSON.stringify(data.tracks.items[0].preview_url);
 		var albumName = JSON.stringify(data.tracks.items[0].album.name);
+
 
 	  if (err) {
 	    return console.log('Error occurred: ' + err);
 	  }
 
-	  else if ((!err) && (command === "spotify-this-song")) {
-	  	console.log("Artist: " + artistName + "\nSong name: " + spotifySong + "\nPreview the song: " + previewLink + "\nAlbum: " + albumName); 
-	  }
-	});
+	  else if ((!err) && (command === "spotify-this-song") && (previewLink !== null)) {
+	  	console.log("Artist: " + artistName + "\nSong name: " + songName + "\nPreview the song: " + previewLink + "\nAlbum: " + albumName); 
 
-}
+ 				// Append the content to the "log.txt file"
+			  fs.appendFile("log.txt", ("\nArtist: " + artistName + "\nSong name: " + songName + "\nPreview the song: " + previewLink + "\nAlbum: " + albumName + "\n"), function(err) {
+
+				  	if(err) {
+				  		console.log(err);
+				  	}
+		  	}); // End .appendFile
+	  	} // End else if statement
+	}); // End request
+} // End runSpotify function
 
 
 // Create a function to store getting a movie from the OMDB database
@@ -138,6 +145,14 @@ function getMovie(movie) {
 	  	var data = JSON.parse(body);
 
 	    console.log("Movie Title: " + data.Title + "\nYear Released: " + data.Year + "\nIMDB Rating: " + data.Ratings[0].Value + "\nRotten Tomatoes: " + data.Ratings[1].Value + "\nCountry Produced: " + data.Country + "\nLanguage: " + data.Language + "\nPlot: " + data.Plot + "\nCast: " + data.Actors);
+
+	 				// Append the content to the "log.txt file"
+			  fs.appendFile("log.txt", ("\nMovie Title: " + data.Title + "\nYear Released: " + data.Year + "\nIMDB Rating: " + data.Ratings[0].Value + "\nRotten Tomatoes: " + data.Ratings[1].Value + "\nCountry Produced: " + data.Country + "\nLanguage: " + data.Language + "\nPlot: " + data.Plot + "\nCast: " + data.Actors + "\n"), function(err) {
+
+				  	if(err) {
+				  		console.log(err);
+				  	}
+		  	}); // End .appendFile  
 	  } 
 	});
 
@@ -187,8 +202,6 @@ function runRandom() {
 	else if (command === "do-what-it-says") {
 		runRandom();
 	}
-
-
 
 
 
