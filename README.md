@@ -1,7 +1,7 @@
 # Liri-Node-App
-Week 6 (LIRI Bot) Assignment
+Week 6 - LIRI Bot Assignment
 
-Created during Week 6 of Rutgers Coding Bootcamp. The challenge was to use Node JS to create a LIRI bot, like iPhone's SIRI, but takes in command through Language vs Speech. LIRI is a command line node app that takes in parameters and returns data based on one of four commands:
+Created during Week 6 of Rutgers Coding Bootcamp. The challenge was to use Node JS to create a LIRI bot, like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data based on one of four commands:
 
   * `my-tweets`
 
@@ -10,6 +10,8 @@ Created during Week 6 of Rutgers Coding Bootcamp. The challenge was to use Node 
   * `movie-this`
 
   * `do-what-it-says`
+
+In addition to the data being logged to your terminal/bash window, the data will append to the log.txt file 
 
 ## Getting Started
 
@@ -31,8 +33,7 @@ Created during Week 6 of Rutgers Coding Bootcamp. The challenge was to use Node 
     * A preview link of the song from Spotify
     * The album that the song is from
 
-  * Or if no song is passed through, it will default to
-    *"The Sign Ace of Base"
+  * Or if no song is passed through, it will default to "The Sign Ace of Base"
 
 3. `node liri.js movie-this <movie name>`
 
@@ -52,13 +53,14 @@ Created during Week 6 of Rutgers Coding Bootcamp. The challenge was to use Node 
 
 4. `node liri.js do-what-it-says`
 
-  * Takes the text from random.txt and runs the song through spotify-this-song command
+  * Takes the text from random.txt file and runs the song through spotify-this-song command
 
 ## Tech used
 - Node.js
 - Twitter NPM Package - https://www.npmjs.com/package/twitter
 - Spotify NPM Package - https://www.npmjs.com/package/spotify
 - Request NPM Package - https://www.npmjs.com/package/request
+- FS (File System) NPM Package - A core node package for reading and writing files
 
 ## Prerequisites
 ```
