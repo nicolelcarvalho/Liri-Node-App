@@ -87,12 +87,9 @@ function runSpotify(song) {
 
 	S.search({ type: 'track', query: spotifySong, limit: 1}, function(err, data) {
 
-		// console.log(JSON.stringify(data.tracks.items, null, 2));
-
 		var artistName = JSON.stringify(data.tracks.items[0].album.artists[0].name);
 		var songName = JSON.stringify(data.tracks.items[0].name);
-		var previewLink = JSON.stringify(data.tracks.items[0].album.external_urls.spotify);
-		// var previewLink = JSON.stringify(data.tracks.items[0].preview_url);
+		var previewLink = JSON.stringify(data.tracks.items[0].preview_url);
 		var albumName = JSON.stringify(data.tracks.items[0].album.name);
 
 

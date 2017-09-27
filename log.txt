@@ -1,4 +1,3 @@
-
 RutgersLiri: My 20th tweet, yay!!!! (Tweeted on: Sun Sep 24 16:27:18 +0000 2017)
 RutgersLiri: Rutgers Coding Bootcamp #theliriproject (Tweeted on: Sun Sep 24 16:25:34 +0000 2017)
 RutgersLiri: Pretty, pretty excited for the Curb Your Enthusiasm Premiere 📺 (Tweeted on: Sun Sep 24 16:22:47 +0000 2017)
@@ -22,7 +21,7 @@ RutgersLiri: Liri is awesome (Tweeted on: Sun Sep 24 15:11:24 +0000 2017)
 
 Artist: "Adele"
 Song name: "Hello"
-Preview the song: "https://open.spotify.com/album/1Eo1pg2D4beFgf3HFTJTMc"
+Preview the song: "https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4?cid=e9d60b8e7d6a458c96a92b73966bf2d6"
 Album: "Hello"
 
 Movie Title: The Founder
@@ -36,5 +35,5 @@ Cast: Michael Keaton, Nick Offerman, John Carroll Lynch, Linda Cardellini
 
 Artist: "Backstreet Boys"
 Song name: "I Want It That Way"
-Preview the song: "https://open.spotify.com/album/1NslKOZobWxINFaFkLol3r"
+Preview the song: "https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=e9d60b8e7d6a458c96a92b73966bf2d6"
 Album: "The Hits--Chapter One"
