@@ -37,3 +37,8 @@ Artist: "Backstreet Boys"
 Song name: "I Want It That Way"
 Preview the song: "https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=e9d60b8e7d6a458c96a92b73966bf2d6"
 Album: "The Hits--Chapter One"
+
+Artist: "Adele"
+Song name: "Hello"
+Preview the song: "https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4?cid=e9d60b8e7d6a458c96a92b73966bf2d6"
+Album: "Hello"
