@@ -13,6 +13,10 @@ Created during Week 6 of Rutgers Coding Bootcamp. The challenge was to use Node 
 
 In addition to the data being logged to your terminal/bash window, the data will append to the log.txt file 
 
+## Demonstration
+
+![liridemo](liriDemo.gif)
+
 ## Getting Started
 
 - Clone down repo.
